@@ -1,0 +1,409 @@
+FILE SIZE (bytes): 20698156 | SHA256: 6f83419d249dabbc7380d67b8a81dd5c8a2f4343ea80254989f236800d1cd1e3
+SHAPE: (29075, 38)
+
+== MISSING VALUES ==
+                               dtype  n_missing  pct_missing  n_unique
+Unique ID                        str          0         0.00     29075
+Sample Date                      str          0         0.00      7596
+Latitude (degree)            float64          0         0.00     17403
+Longitude (degree)           float64          0         0.00     17689
+Ocean                            str       1389         4.78         5
+Region                           str      15766        54.23        82
+Subregion                        str      27232        93.66        18
+Country                          str      17391        59.81        82
+State                            str      18813        64.71        68
+Beach Location                   str      18111        62.29      4154
+Marine Setting                   str          0         0.00         4
+Ocean Bottom Depth (m)       float64      28743        98.86       141
+Water Sample Depth (m)       float64      12141        41.76        48
+Sediment Sample Depth (m)    float64      28395        97.66         6
+Sampling Method                  str          0         0.00        39
+Mesh Size (mm)               float64      10662        36.67        32
+Transect Number              float64      28777        98.98         6
+Sampling Point on Beach      float64      28515        98.07        24
+Volunteers Number            float64      18460        63.49        69
+Collecting Time (min)        float64      18460        63.49        85
+Standardized Nurdle  Amount  float64      18460        63.49       374
+Microplastics Measurement    float64      10615        36.51      6583
+Unit                             str          0         0.00         3
+Concentration Class Range        str          0         0.00        20
+Concentration Class              str          0         0.00         5
+Short Reference                  str          0         0.00        93
+Long Reference                   str          0         0.00        96
+DOI                              str          0         0.00        96
+Organization                     str          0         0.00        68
+Keywords                         str       1400         4.82        64
+NCEI Accession Number          int64          0         0.00        96
+NCEI Accession Link              str          0         0.00        96
+Study Type                       str          0         0.00         2
+ObjectId                       int64          0         0.00     29075
+Symbology                        str          0         0.00        24
+GlobalID                         str          0         0.00     29075
+x                            float64          7         0.02     17687
+y                            float64          7         0.02     17401
+
+== DUPLICATES ==
+fully identical rows: 0
+duplicate Unique ID: 0
+duplicate GlobalID: 0
+duplicate ObjectId: 0
+duplicates ignoring IDs and x/y: 484
+
+== DATES ==
+unparsed: 0 of 29075 | raw missing: 0
+range: 1972-04-25 05:00:00 to 2026-04-28 05:00:00
+records per year:
+ Sample Date
+1972      30
+1973      14
+1986      20
+1987     161
+1989     180
+1990     110
+1991     294
+1992     517
+1993     362
+1994     324
+1995     350
+1996     408
+1997     388
+1998     415
+1999     355
+2000     445
+2001     474
+2002     446
+2003     419
+2004     401
+2005     492
+2006     573
+2007     479
+2008     440
+2009     420
+2010     315
+2011     591
+2012     644
+2013    1023
+2014    1259
+2015    1126
+2016     621
+2017     737
+2018    1323
+2019    2911
+2020    1737
+2021    2086
+2022    1840
+2023    1275
+2024    1196
+2025    1638
+2026     236
+
+== COORDINATES ==
+lat range -71.69904 89.7614 | lon range -179.9942 179.854333
+invalid lat: 0 invalid lon: 0
+(0,0) points: 0
+
+== CATEGORICALS ==
+
+-- Ocean
+Ocean
+Atlantic Ocean    19394
+Pacific Ocean      7102
+NaN                1389
+Indian Ocean        777
+Arctic Ocean        386
+Southern Ocean       27
+
+-- Marine Setting
+Marine Setting
+Ocean water       16987
+Nurdle Patrol     10615
+Beach               893
+Ocean sediment      580
+
+-- Sampling Method
+Sampling Method
+Neuston net                  10719
+Hand picking                 10633
+Manta net                     3204
+Grab sample                   1389
+Pump                           563
+PVC cylinder                   370
+Intake seawater pump           284
+Plankton net                   240
+Metal trowel                   208
+Van Dorn sampler               181
+Metal spoon                    145
+Megacorer                       90
+Metal scoop                     89
+Niskin bottle                   81
+Stainless steel bucket          80
+Shovel                          72
+Van Veen grab                   66
+Trowel                          60
+Stainless steel corer           58
+Aluminum bucket                 57
+Stainless steel spoon           50
+CTD rosette sampler             48
+Ekman dredge                    45
+Steel bucket                    43
+Remotely operated vehicle       40
+AVANI net                       36
+Petite Ponar benthic grab       36
+Bongo net                       33
+Stainless steel spatula         32
+Sediment grab sampler           26
+Stainless steel sampler         23
+Day grab                        17
+Metal shovel                    14
+Ekman grab                      10
+Shipek grab sampler              9
+Box corer                        7
+Kubiena box                      7
+Surface water intake             5
+Glass jar                        5
+
+-- Unit
+Unit
+pieces/m3           17880
+pieces/10 mins      10615
+pieces kg-1 d.w.      580
+
+-- Concentration Class
+Concentration Class
+Medium       13497
+Very Low      7243
+High          4067
+Low           3177
+Very High     1091
+
+-- Concentration Class Range
+Concentration Class Range
+0.005-1         7580
+2-40            5186
+0-0.0005        4958
+40-200          2268
+0.0005-0.005    2025
+0               1940
+1-10            1763
+1-2              979
+>=10             623
+500-30000        505
+>200             384
+0-100            264
+20-150           226
+2-20             108
+0-2               81
+100-500           65
+>40000            46
+>10               38
+150-200           23
+30000-40000       13
+
+-- Study Type
+Study Type
+Professional Science    16857
+Citizen Science         12218
+
+-- Organization
+Organization
+University of Texas Marine Science Institute                              10615
+Sea Education Association                                                  8665
+Adventure Scientist                                                        1389
+Oceaneye Association,  Switzerland                                         1145
+5 Gyres Institute                                                           816
+The Ocean Cleanup, Rotterdam, The Netherlands                               769
+Galway-Mayo Institute of Technology, Ireland                                584
+Marine Scotland Science                                                     514
+Universidad Autónoma de Baja California, Mexico                             370
+University of Washington                                                    270
+Scripps Institution of Oceanography-University of California San Diego      234
+University of South Florida                                                 224
+Galway-Mayo Institute of Technology, Galway, Ireland                        219
+Plymouth Marine Laboratory, UK                                              208
+University of Western Australia                                             171
+Bangladesh Agricultural University                                          168
+Sorbonne Universités                                                        157
+Institute of Marine Sciences – National Research Council, Italy             149
+Hellenic Centre for Marine Research, Greece                                 147
+University of Barcelona                                                     145
+Fisheries College and Research Institute, Thoothukudi, India                144
+The University of Tokyo, Japan                                              132
+Norwegian Institute for Water Research                                      108
+University of Haifa, Israel                                                 108
+GEOMAR Helmholtz Centre for Ocean Research Kiel                              90
+Scottish Marine Institute, Scotland, United Kingdom                          90
+University of Rhode Island, USA                                              83
+University of the South Pacific, Fiji                                        81
+Universidad de Cádiz, Spain                                                  81
+Taipei Medical University, Taiwan, ROC                                       80
+NOVA University Lisbon, Caparica, Portugal                                   72
+City University of Hong Kong                                                 69
+Chulalongkorn University, Bangkok, Thailand                                  59
+Atlantic Technological University, Galway, Ireland                           58
+Scion Research, New Zealand                                                  58
+Federal University of Pará, Brazil                                           57
+University of Fribourg, Switzerland                                          54
+Zhejiang University of Technology, China                                     52
+Universidad de La Laguna, Spain                                              50
+University of Ferrara, Italy                                                 48
+
+-- Country (top 40)
+Country
+NaN                      17391
+United States             9125
+Mexico                    1062
+Canada                     377
+Belize                     330
+Taiwan                      89
+Spain                       78
+New Zealand                 61
+Bangladesh                  60
+Thailand                    59
+Australia                   45
+Costa Rica                  29
+USA                         29
+France                      27
+United Kingdom              26
+Cuba                        20
+Trinidad                    18
+Italy                       18
+Turkey                      15
+Columbia                    14
+Tanzania                    12
+Sao Tome and Principe       12
+Oman                        10
+St Kitts and Nevis          10
+Cayman Islands               9
+Greece                       8
+Ghana                        8
+Bahamas                      7
+Brazil                       7
+Israel                       7
+Seychelles                   6
+South Africa                 6
+Fiji                         5
+Kenya                        4
+Chile                        4
+Nigeria                      4
+Saudia Arabia                4
+Mozambique                   4
+Sri Lanka                    3
+Japan                        3
+
+-- Region (top 25)
+Region
+NaN                                                            15766
+Gulf of America (formerly Gulf of Mexico)                       6299
+Caribbean Sea                                                   2427
+Mediterranean Sea                                               1451
+North Sea                                                        264
+Inner Seas off the West Coast of Scotland                        263
+Bay of Bengal                                                    202
+Celtic Sea                                                       185
+Gulf of California                                               177
+Laccadive Sea                                                    149
+Philippine Sea                                                   147
+Tasman Sea                                                       146
+South China Sea                                                  123
+The Coastal Waters of Southeast Alaska and British Columbia      121
+Coral Sea                                                        115
+Eastern China Sea                                                 84
+East China Sea                                                    63
+Gulf of Thailand                                                  60
+Bay of Biscay                                                     56
+Gulf of Alaska                                                    53
+Great Australian Bight                                            53
+Stellwagen Bank National Marine Sanctuary                         52
+Greenland Sea                                                     52
+Arabian Sea                                                       48
+Coastal Waters of Southeast Alaska and British Columbia           46
+
+== UNIT x MARINE SETTING ==
+Unit            pieces kg-1 d.w.  pieces/10 mins  pieces/m3
+Marine Setting                                             
+Beach                          0               0        893
+Nurdle Patrol                  0           10615          0
+Ocean sediment               580               0          0
+Ocean water                    0               0      16987
+
+== UNIT x SAMPLING METHOD ==
+Unit                       pieces kg-1 d.w.  pieces/10 mins  pieces/m3
+Sampling Method                                                       
+AVANI net                                 0               0         36
+Aluminum bucket                           0               0         57
+Bongo net                                 0               0         33
+Box corer                                 7               0          0
+CTD rosette sampler                       0               0         48
+Day grab                                 17               0          0
+Ekman dredge                             45               0          0
+Ekman grab                               10               0          0
+Glass jar                                 4               0          1
+Grab sample                               0               0       1389
+Hand picking                              0           10615         18
+Intake seawater pump                      0               0        284
+Kubiena box                               7               0          0
+Manta net                                 0               0       3204
+Megacorer                                90               0          0
+Metal scoop                               0               0         89
+Metal shovel                              0               0         14
+Metal spoon                              86               0         59
+Metal trowel                              0               0        208
+Neuston net                               0               0      10719
+Niskin bottle                             0               0         81
+PVC cylinder                              0               0        370
+Petite Ponar benthic grab                36               0          0
+Plankton net                              0               0        240
+Pump                                      0               0        563
+Remotely operated vehicle                40               0          0
+Sediment grab sampler                    26               0          0
+Shipek grab sampler                       9               0          0
+Shovel                                   72               0          0
+Stainless steel bucket                    0               0         80
+Stainless steel corer                    58               0          0
+Stainless steel sampler                   0               0         23
+Stainless steel spatula                   7               0         25
+Stainless steel spoon                     0               0         50
+Steel bucket                              0               0         43
+Surface water intake                      0               0          5
+Trowel                                    0               0         60
+Van Dorn sampler                          0               0        181
+Van Veen grab                            66               0          0
+
+== MEASUREMENT ==
+count     18460.000000
+mean        470.298374
+std        9307.529401
+min           0.000000
+25%           0.000000
+50%           0.014400
+75%           0.390020
+max      800000.000000
+zeros: 5210 negatives: 0 missing: 10615
+by unit:
+                    count        mean          std  min   25%        50%         75%       max
+Unit                                                                                          
+pieces kg-1 d.w.    580.0  355.802353  1806.135091  0.0  10.0  52.726683  186.609884   40510.0
+pieces/10 mins        0.0         NaN          NaN  NaN   NaN        NaN         NaN       NaN
+pieces/m3         17880.0  474.012451  9451.683904  0.0   0.0   0.012960    0.270520  800000.0
+
+== NUMERIC COLUMNS ==
+                               count          mean           std           min           25%           50%           75%           max
+Latitude (degree)            29075.0  2.783457e+01  1.802015e+01 -7.169904e+01  2.125835e+01  2.927390e+01  3.786762e+01  8.976140e+01
+Longitude (degree)           29075.0 -6.674116e+01  6.580064e+01 -1.799942e+02 -9.708550e+01 -7.995963e+01 -6.007000e+01  1.798543e+02
+Ocean Bottom Depth (m)         332.0  8.298620e+02  1.036180e+03  5.000000e-01  7.200000e+00  4.225000e+01  2.200000e+03  4.005000e+03
+Water Sample Depth (m)       16934.0  2.973072e+00  8.653806e+01  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e-01  4.369000e+03
+Sediment Sample Depth (m)      680.0  3.258824e-02  1.739453e-02  1.000000e-02  2.000000e-02  3.000000e-02  5.000000e-02  2.000000e-01
+Mesh Size (mm)               18413.0  2.954215e-01  1.665841e-01  4.500000e-04  3.300000e-01  3.350000e-01  3.350000e-01  1.130000e+00
+Transect Number                298.0  2.607383e+00  1.410714e+00  1.000000e+00  1.000000e+00  2.000000e+00  4.000000e+00  6.000000e+00
+Sampling Point on Beach        560.0  6.258929e+00  4.023068e+00  1.000000e+00  3.000000e+00  6.000000e+00  9.000000e+00  2.400000e+01
+Volunteers Number            10615.0  3.010645e+00  6.245072e+00  1.000000e+00  1.000000e+00  1.000000e+00  2.000000e+00  1.050000e+02
+Collecting Time (min)        10615.0  1.835930e+01  2.721302e+01  0.000000e+00  1.000000e+01  1.000000e+01  1.000000e+01  8.400000e+02
+Standardized Nurdle  Amount  10615.0  1.608114e+02  4.724902e+03  0.000000e+00  1.000000e+00  1.000000e+01  3.600000e+01  3.284450e+05
+Microplastics Measurement    18460.0  4.702984e+02  9.307529e+03  0.000000e+00  0.000000e+00  1.440000e-02  3.900197e-01  8.000000e+05
+NCEI Accession Number        29075.0  2.483245e+05  3.029563e+04  1.709670e+05  2.110080e+05  2.594860e+05  2.596920e+05  3.145590e+05
+ObjectId                     29075.0  1.453865e+04  8.393766e+03  1.000000e+00  7.269500e+03  1.453900e+04  2.180750e+04  2.907600e+04
+x                            29068.0 -7.432745e+06  7.322955e+06 -2.003686e+07 -1.080756e+07 -8.901069e+06 -6.690023e+06  2.002129e+07
+y                            29068.0  3.410363e+06  2.595870e+06 -1.164563e+07  2.422281e+06  3.410541e+06  4.559914e+06  2.999878e+07
+
+== ACCESSIONS ==
+unique NCEI accessions: 96 | unique DOIs: 96

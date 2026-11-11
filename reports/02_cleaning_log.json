@@ -1,0 +1,47 @@
+{
+  "records_raw": 29075,
+  "dates_unparsed": 0,
+  "invalid_coordinates": 0,
+  "exact_duplicates_removed": 0,
+  "possible_replicates_flagged_not_removed": 485,
+  "possible_replicates_with_zero_value": 311,
+  "country_variants_fixed": {
+    "USA": 29,
+    "Columbia": 14,
+    "Saudia Arabia": 4
+  },
+  "group_unit_crosstab": {
+    "pieces kg-1 d.w.": {
+      "beach_pieces_per_m3": 0,
+      "nurdle_pieces_per_10min": 0,
+      "sediment_pieces_per_kg_dw": 580,
+      "water_pieces_per_m3": 0
+    },
+    "pieces/10 mins": {
+      "beach_pieces_per_m3": 0,
+      "nurdle_pieces_per_10min": 10615,
+      "sediment_pieces_per_kg_dw": 0,
+      "water_pieces_per_m3": 0
+    },
+    "pieces/m3": {
+      "beach_pieces_per_m3": 893,
+      "nurdle_pieces_per_10min": 0,
+      "sediment_pieces_per_kg_dw": 0,
+      "water_pieces_per_m3": 16987
+    }
+  },
+  "records_without_value": 0,
+  "outliers_flagged_not_removed": {
+    "beach_pieces_per_m3": 12,
+    "nurdle_pieces_per_10min": 7,
+    "sediment_pieces_per_kg_dw": 0,
+    "water_pieces_per_m3": 1
+  },
+  "records_clean": 29075,
+  "records_per_group": {
+    "water_pieces_per_m3": 16987,
+    "nurdle_pieces_per_10min": 10615,
+    "beach_pieces_per_m3": 893,
+    "sediment_pieces_per_kg_dw": 580
+  }
+}
