@@ -1,0 +1,88 @@
+water_pieces_per_m3: n=16987, zeros=4958 (29.2%), median=0.0108, p90=2.181, max=1.378e+05
+beach_pieces_per_m3: n=893, zeros=210 (23.5%), median=1280, p90=1.472e+04, max=8e+05
+sediment_pieces_per_kg_dw: n=580, zeros=42 (7.2%), median=52.73, p90=786.8, max=4.051e+04
+nurdle_pieces_per_10min: n=10615, zeros=1940 (18.3%), median=10, p90=88, max=3.284e+05
+
+Ocean x group:
+analysis_group  beach_pieces_per_m3  nurdle_pieces_per_10min  sediment_pieces_per_kg_dw  water_pieces_per_m3
+Ocean                                                                                                       
+Arctic Ocean                      0                        1                          0                  385
+Atlantic Ocean                  359                     8016                        348                10671
+Indian Ocean                    101                       14                        134                  528
+Not recorded                      0                     1389                          0                    0
+Pacific Ocean                   433                     1195                         98                 5376
+Southern Ocean                    0                        0                          0                   27
+
+Country label coverage: 40.2% of records
+
+Water per year:
+         n    median          p90
+year                             
+1972    30  0.003000     0.060300
+1973    14  0.002000     0.045000
+1986    20  0.000000     0.080316
+1987   161  0.004320     0.053996
+1989   180  0.004320     0.084448
+1990   110  0.006480     0.054428
+1991   294  0.004320     0.059828
+1992   517  0.004320     0.044060
+1993   362  0.002160     0.060370
+1994   324  0.002160     0.034556
+1995   350  0.007198     0.065754
+1996   408  0.006480     0.112744
+1997   388  0.004322     0.079153
+1998   415  0.002160     0.035031
+1999   355  0.006480     0.083656
+2000   445  0.004320     0.055910
+2001   474  0.002450     0.064148
+2002   446  0.000000     0.041030
+2003   419  0.000000     0.036716
+2004   401  0.000000     0.026748
+2005   492  0.002160     0.064796
+2006   573  0.001272     0.066280
+2007   479  0.002700     0.076582
+2008   440  0.000000     0.222770
+2009   420  0.016196     4.171464
+2010   315  0.043562     1.330585
+2011   591  0.005347     0.755588
+2012   644  0.022815     0.617528
+2013  1023  2.500000    11.000000
+2014  1259  0.015000     1.058703
+2015  1108  0.448833     5.025019
+2016   613  0.005000    53.200000
+2017   525  0.140737  1000.000000
+2018   686  0.127219  1058.000000
+2019   589  0.210000     3.929290
+2020   289  0.216667     2.379167
+2021   360  0.231637     1.836934
+2022   234  0.119099  1598.000000
+2023   141  0.273673   560.000000
+2024    93  0.166026     0.872758
+
+Water by sampling method (n>=100):
+                      count    median        mean
+Sampling Method                                  
+Van Dorn sampler        181  0.000000  926.353591
+Neuston net           10719  0.003880    0.130751
+Grab sample            1389  0.005000    0.012778
+Manta net              3204  0.362725    1.700401
+Plankton net            240  0.431500    1.302697
+Intake seawater pump    284  1.000000   13.976388
+Pump                    563  6.000000    6.764654
+
+Concentration class x group:
+Concentration Class        Very Low   Low  Medium  High  Very High
+analysis_group                                                    
+beach_pieces_per_m3             264    65     505    13         46
+nurdle_pieces_per_10min        1940   979    5186  2268        242
+sediment_pieces_per_kg_dw        81   108     226    23        142
+water_pieces_per_m3            4958  2025    7580  1763        661
+
+Spearman (water):
+                        log10_value  Latitude (degree)  Longitude (degree)  Water Sample Depth (m)  Mesh Size (mm)   year
+log10_value                   1.000              0.252               0.303                   0.199          -0.415  0.427
+Latitude (degree)             0.252              1.000               0.154                   0.195          -0.043  0.173
+Longitude (degree)            0.303              0.154               1.000                   0.250          -0.394  0.338
+Water Sample Depth (m)        0.199              0.195               0.250                   1.000          -0.573  0.427
+Mesh Size (mm)               -0.415             -0.043              -0.394                  -0.573           1.000 -0.679
+year                          0.427              0.173               0.338                   0.427          -0.679  1.000
