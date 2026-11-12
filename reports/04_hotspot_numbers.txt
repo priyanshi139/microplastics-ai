@@ -1,0 +1,57 @@
+Water records: 16987 | comparable surface-net subset (Neuston/Manta, mesh 0.3-0.4 mm, depth<=0.5 m): 13200
+Comparable subset by ocean:
+Ocean
+Atlantic Ocean    8526
+Pacific Ocean     4207
+Indian Ocean       325
+Arctic Ocean       139
+Southern Ocean       3
+
+5-deg cells: 558 | Spearman(sample count, median concentration) = -0.055 (p=0.193)  -> density is NOT a proxy for intensity
+Cells with n>=10: 156 | hotspot rule: median >= 90th percentile of cell medians (0.7882 pieces/m3) -> 16 cells
+Hotspot cells (centre lat, lon, n, median, p90, share >1 piece/m3):
+  cy     cx   n  median    p90  frac_gt1  hotspot
+37.5 -142.5  38   5.102  8.437     0.842     True
+32.5 -137.5 119   3.907 14.473     0.891     True
+37.5 -137.5  42   3.380 10.369     0.905     True
+32.5 -142.5 200   3.187  8.342     0.615     True
+37.5 -147.5  28   2.099  8.491     0.857     True
+32.5   32.5  89   2.018 12.793     0.663     True
+47.5   12.5  19   1.930 12.020     0.737     True
+32.5 -132.5  87   1.790  9.497     0.701     True
+37.5 -152.5  33   1.687  4.173     0.758     True
+22.5   92.5  63   1.417  2.733     0.603     True
+32.5   37.5  28   1.410 10.356     0.571     True
+52.5   -7.5  14   1.331  1.741     0.643     True
+27.5 -132.5  66   1.227  2.863     0.545     True
+32.5  -42.5  13   1.032  2.872     0.538     True
+32.5 -177.5  11   0.967  1.795     0.455     True
+27.5 -147.5  63   0.828  2.712     0.460     True
+
+DBSCAN (eps=300 km) on all comparable points (min 20): 26 sampling-density clusters, noise=1324
+DBSCAN on the top-10% concentration points (value >= 0.8744; min 10): 11 high-concentration clusters
+High-concentration clusters:
+ cluster  n_high    lat      lon  n_all_in_bbox  share_high_in_bbox  median_value                                                                                                                  orgs
+       2     668 32.208 -140.826           2004               0.333         2.964 The Ocean Cleanup, Rotterdam, The Netherlands; Scripps Institution of Oceanography-University of California San Diego
+       0     285 40.664    8.226            959               0.297         1.692                                                              Oceaneye Association,  Switzerland; Sorbonne Universités
+       1      81 32.355   34.830            108               0.750         2.648                                                                                           University of Haifa, Israel
+       4      39 22.356   91.871             45               0.867         2.042                                                                                    Bangladesh Agricultural University
+       7      16 45.386   13.681             23               0.696         2.600                                               University of Nova Gorica, Slovenia; Oceaneye Association,  Switzerland
+       3      15 30.784  -44.964             26               0.577         1.696                                                                 5 Gyres Institute; Oceaneye Association,  Switzerland
+       8      13 20.326 -155.283            244               0.053         1.885                                              Sea Education Association; The Ocean Cleanup, Rotterdam, The Netherlands
+       9      12 37.466   -7.857             82               0.146         1.571                                        NOVA University Lisbon, Caparica, Portugal; Oceaneye Association,  Switzerland
+       6      12 17.947  -76.809             49               0.245         1.340                                                                          University of the West Indies, Mona, Jamaica
+       5      11 53.166   -9.377             11               1.000         1.396                                                                    Atlantic Technological University, Galway, Ireland
+      10      10 31.416 -160.299             14               0.714         1.530                                                                                                     5 Gyres Institute
+
+India-region box (lat 5-25, lon 66-90) records: 217
+analysis_group
+nurdle_pieces_per_10min        5
+sediment_pieces_per_kg_dw     72
+water_pieces_per_m3          140
+Organization
+Fisheries College and Research Institute, Thoothukudi, India    144
+Goa University, India                                            43
+5 Gyres Institute                                                24
+University of Texas Marine Science Institute                      5
+Adventure Scientist                                               1

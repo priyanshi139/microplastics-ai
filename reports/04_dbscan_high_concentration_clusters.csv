@@ -1,0 +1,12 @@
+cluster,n_high,lat,lon,n_all_in_bbox,share_high_in_bbox,median_value,orgs
+2,668,32.20842066616766,-140.82631375598802,2004,0.3333333333333333,2.9636045,"The Ocean Cleanup, Rotterdam, The Netherlands; Scripps Institution of Oceanography-University of California San Diego"
+0,285,40.66357829824561,8.225601985964913,959,0.29718456725756,1.69186,"Oceaneye Association,  Switzerland; Sorbonne Universités"
+1,81,32.35485812345679,34.83025101234568,108,0.75,2.647504,"University of Haifa, Israel"
+4,39,22.35616471794873,91.87143923076923,45,0.8666666666666667,2.041667,Bangladesh Agricultural University
+7,16,45.385779125,13.6812354375,23,0.6956521739130435,2.6,"University of Nova Gorica, Slovenia; Oceaneye Association,  Switzerland"
+3,15,30.78406453333333,-44.963584399999995,26,0.5769230769230769,1.696222,"5 Gyres Institute; Oceaneye Association,  Switzerland"
+8,13,20.325846153846157,-155.28251538461538,244,0.05327868852459016,1.885194,"Sea Education Association; The Ocean Cleanup, Rotterdam, The Netherlands"
+9,12,37.46626866666667,-7.8574728333333335,82,0.14634146341463414,1.5707360000000001,"NOVA University Lisbon, Caparica, Portugal; Oceaneye Association,  Switzerland"
+6,12,17.9467365,-76.80944366666667,49,0.24489795918367346,1.34,"University of the West Indies, Mona, Jamaica"
+5,11,53.165626272727266,-9.376543272727274,11,1.0,1.395576,"Atlantic Technological University, Galway, Ireland"
+10,10,31.415910000000004,-160.29887000000002,14,0.7142857142857143,1.530342,5 Gyres Institute
