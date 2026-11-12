@@ -1,0 +1,40 @@
+Box records: 217 | India subset: 189 | excluded (not Indian-origin): 28
+Excluded by organisation / group:
+Organization                                  analysis_group         
+5 Gyres Institute                             water_pieces_per_m3        24
+Adventure Scientist                           water_pieces_per_m3         1
+University of Texas Marine Science Institute  nurdle_pieces_per_10min     3
+Excluded lat/lon ranges:
+                                             Latitude (degree)       Longitude (degree)       
+                                                           min   max                min    max
+Organization                                                                                  
+5 Gyres Institute                                         5.63  6.47              83.07  89.38
+Adventure Scientist                                       8.48  8.48              81.33  81.33
+University of Texas Marine Science Institute              6.84  6.86              79.86  79.86
+
+India subset by site x group (unit):
+site                                      analysis_group             Unit            
+Goa beaches (Arabian Sea)                 water_pieces_per_m3        pieces/m3           43
+Gulf of Mannar (Thoothukudi, Tamil Nadu)  sediment_pieces_per_kg_dw  pieces kg-1 d.w.    72
+                                          water_pieces_per_m3        pieces/m3           72
+Maharashtra beaches (nurdle)              nurdle_pieces_per_10min    pieces/10 mins       2
+
+Summary:
+                                                                     n      years     lat     lon  zeros  median       p90       max       methods      mesh_mm
+site                                     analysis_group                                                                                                        
+Goa beaches (Arabian Sea)                water_pieces_per_m3        43  2022-2023  15.447  73.818      0  430.00  1438.000  2500.000  Steel bucket      0.1-0.3
+Gulf of Mannar (Thoothukudi, Tamil Nadu) sediment_pieces_per_kg_dw  72  2021-2021   8.770  78.186      0   38.15   148.400   700.000        Shovel  0.011-0.011
+                                         water_pieces_per_m3        72  2021-2021   8.770  78.186      0    0.18     0.638     1.356  Plankton net  0.048-0.048
+Maharashtra beaches (nurdle)             nurdle_pieces_per_10min     2  2025-2026  18.004  73.106      0   74.50    80.500    82.000  Hand picking           NA
+
+Concentration class (NOAA-assigned) by site:
+Concentration Class                                                   High  Low  Medium  Very High  Very Low
+row_0                                                                                                       
+Goa beaches (Arabian Sea) | water_pieces_per_m3                          0    0       0         43         0
+Gulf of Mannar (Thoothukudi, Tamil Nadu) | sediment_pieces_per_kg_dw     1   19      45          6         1
+Gulf of Mannar (Thoothukudi, Tamil Nadu) | water_pieces_per_m3           4    0      68          0         0
+Maharashtra beaches (nurdle) | nurdle_pieces_per_10min                   2    0       0          0         0
+
+Indian coastline states with any data: Tamil Nadu (Gulf of Mannar), Goa, Maharashtra (2 nurdle beaches). No data from Kerala, Karnataka, Gujarat, Andhra Pradesh, Odisha, West Bengal or the island territories in this subset.
+
+Thoothukudi: water n=72, sediment n=72; stations share coordinates: 6 water coords, 6 sediment coords

@@ -1,0 +1,5 @@
+site,analysis_group,n,years,lat,lon,zeros,median,p90,max,methods,mesh_mm
+Goa beaches (Arabian Sea),water_pieces_per_m3,43,2022-2023,15.447,73.818,0,430.0,1438.0,2500.0,Steel bucket,0.1-0.3
+"Gulf of Mannar (Thoothukudi, Tamil Nadu)",sediment_pieces_per_kg_dw,72,2021-2021,8.77,78.186,0,38.15,148.4,700.0,Shovel,0.011-0.011
+"Gulf of Mannar (Thoothukudi, Tamil Nadu)",water_pieces_per_m3,72,2021-2021,8.77,78.186,0,0.18,0.638,1.356,Plankton net,0.048-0.048
+Maharashtra beaches (nurdle),nurdle_pieces_per_10min,2,2025-2026,18.004,73.106,0,74.5,80.5,82.0,Hand picking,NA

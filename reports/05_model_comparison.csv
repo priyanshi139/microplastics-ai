@@ -1,0 +1,25 @@
+features,validation,model,MAE,RMSE,R2,R2_fold_min,R2_fold_max
+all_features,random 5-fold,Mean baseline,1.115,1.385,-0.0,-0.001,-0.0
+all_features,random 5-fold,Linear Regression,0.733,0.939,0.54,0.521,0.558
+all_features,random 5-fold,Random Forest,0.427,0.652,0.778,0.767,0.788
+all_features,random 5-fold,HistGradientBoosting,0.475,0.67,0.766,0.757,0.773
+all_features,spatial block 5-fold,Mean baseline,1.13,1.4,-0.022,-0.131,-0.001
+all_features,spatial block 5-fold,Linear Regression,0.786,1.017,0.46,0.326,0.606
+all_features,spatial block 5-fold,Random Forest,0.631,0.946,0.534,0.342,0.709
+all_features,spatial block 5-fold,HistGradientBoosting,0.599,0.84,0.632,0.475,0.708
+method_only (no location),random 5-fold,Mean baseline,1.115,1.385,-0.0,-0.001,-0.0
+method_only (no location),random 5-fold,Linear Regression,0.737,0.941,0.538,0.518,0.558
+method_only (no location),random 5-fold,Random Forest,0.546,0.752,0.705,0.681,0.721
+method_only (no location),random 5-fold,HistGradientBoosting,0.561,0.756,0.702,0.681,0.712
+method_only (no location),spatial block 5-fold,Mean baseline,1.13,1.4,-0.022,-0.131,-0.001
+method_only (no location),spatial block 5-fold,Linear Regression,0.786,1.016,0.462,0.328,0.612
+method_only (no location),spatial block 5-fold,Random Forest,0.658,0.934,0.545,0.316,0.738
+method_only (no location),spatial block 5-fold,HistGradientBoosting,0.644,0.875,0.601,0.465,0.738
+location_only (no method),random 5-fold,Mean baseline,1.115,1.385,-0.0,-0.001,-0.0
+location_only (no method),random 5-fold,Linear Regression,0.967,1.223,0.22,0.201,0.234
+location_only (no method),random 5-fold,Random Forest,0.461,0.691,0.751,0.744,0.767
+location_only (no method),random 5-fold,HistGradientBoosting,0.505,0.711,0.737,0.726,0.753
+location_only (no method),spatial block 5-fold,Mean baseline,1.13,1.4,-0.022,-0.131,-0.001
+location_only (no method),spatial block 5-fold,Linear Regression,0.981,1.24,0.198,0.112,0.189
+location_only (no method),spatial block 5-fold,Random Forest,0.709,1.015,0.463,0.283,0.63
+location_only (no method),spatial block 5-fold,HistGradientBoosting,0.699,0.989,0.49,0.254,0.635
